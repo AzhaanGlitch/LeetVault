@@ -9,7 +9,6 @@ public:
     int candy(vector<int>& ratings) {
         int n = ratings.size();
         if (n == 0) return 0;
-
         vector<int> answer(n, 1);
 
         for (int i = 1; i < n; i++) {
@@ -28,7 +27,7 @@ public:
         for (int i = 0; i < n; i++) {
             sum += answer[i];
         }
-        
+
         return sum;
     }
 };
