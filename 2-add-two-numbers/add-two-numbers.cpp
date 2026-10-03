@@ -34,7 +34,8 @@ public:
                 resultTail->next = newNode;
                 resultTail = newNode;
             } 
-        } 
+        }
+        
         return resultHead;
     }
 };
