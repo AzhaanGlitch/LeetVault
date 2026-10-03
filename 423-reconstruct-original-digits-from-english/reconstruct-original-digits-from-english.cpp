@@ -29,7 +29,6 @@ public:
         for (int i = 0; i <= 9; i++) {
             ans.append(count[i], '0' + i);
         }
-
         return ans;
     }
 };
